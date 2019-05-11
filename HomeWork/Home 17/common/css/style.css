@@ -1,0 +1,27 @@
+.tabset .tabs-content .tabset-body {display: none;}
+.tabset .tabs-content .tabset-body.open {display: block;}
+
+.tabset .tabs .tabset-heading.open {
+    transition: .2s;
+    background-color: black;
+    color: #FFF;
+    border: 1px solid #707070;
+    border-bottom: 1px solid #fff;
+}
+
+.tabset .tabs .tabset-heading {
+    transition: .2s;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+.tabset .tabs .tabset-heading:hover{
+    transition: .2s;  
+    background-color: antiquewhite;
+}
+
+.tabset .tabs-content .tabset-body {
+    width: 400px;
+    border: 1px solid #707070;
+    height: 200px;
+}

@@ -1,0 +1,29 @@
+
+#container{
+    text-align: center;
+}
+li {display: none;}
+.img-show {display: block;}
+.img-show img {
+    width: 100%;
+    height: 600px;
+}
+.next-btn:hover, .prev-btn:hover {opacity: 1;}
+.container-btn{position: relative;}
+.prev-btn {
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    background-color:black;
+}
+.next-btn {
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    background-color: black;
+}
+.next-btn, .prev-btn {
+    width: 50px;
+    opacity: 0.4;
+    height: 50px;
+}
